@@ -23,7 +23,7 @@
 
     // Nombre de la pagina
     ?><title><?=\core\core::APP_NAME()?></title></head><body class="<?=\core\core::THEME_APP()?>   fixed sidebar-collapse sidebar-mini">
-<div class="wrapper">
+<div class="wrapper animated fadeIn">
     <?php include "app/layout/header.inc";
     include "app/layout/menu_principal.inc";?>
     <div class="content-wrapper">
@@ -32,7 +32,7 @@
         <div id="show_modal"></div>
         <div id="idgeneral" ></div>
         <!-- Main content -->
-        <section id="div_general" class="content ">
+        <section id="div_general" class="content  ">
 
             <?php  //var_dump($_SESSION); ?>
 

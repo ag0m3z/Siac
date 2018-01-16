@@ -1,6 +1,7 @@
 
 #Bloquear la Carpeta de configuracion del IDE PHPStorm
-.idea/*
+
+.idea/
 doc/*
 
 

@@ -16,7 +16,7 @@
     ?>
     <title><?=\core\core::APP_NAME()?></title></head><body class="full">
 
-<div class="row">
+<div class="row animated fadeIn">
     <div class="col-sm-4 with-border border-right" style="height: auto;height: 100vh">
 
         <div class="content">
