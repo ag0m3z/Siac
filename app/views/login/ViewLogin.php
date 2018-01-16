@@ -21,7 +21,6 @@
 
         <div class="content">
             <div class="row">
-
                 <div class="col-md-12 text-center">
                     <br>
                     <img  style="width: 50%" src="content/img/logos/LogoEmpresa.png">
