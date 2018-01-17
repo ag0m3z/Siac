@@ -38,7 +38,7 @@
 
             <div class="row row-sm animated fadeInLeft">
 
-                <div class="col-lg-3 col-xs-6">
+                <div class="col-lg-3 col-xs-6 hoverable">
                     <!-- small box -->
                     <div class="small-box bg-green">
                         <div class="inner">

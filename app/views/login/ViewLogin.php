@@ -16,6 +16,7 @@
     <title><?=\core\core::APP_NAME()?></title></head><body class="full">
 
 <div class="row animated fadeIn">
+    
     <div class="col-sm-4 with-border border-right" style="height: auto;height: 100vh">
 
         <div class="content">
@@ -67,6 +68,7 @@
         <img class="img-responsive" style="height: auto;height: 100vh"  src="content/img/wallpapers/working-8.jpg">
 
     </div>
+
 </div>
 <?php
 \core\core::includeJS('plugins/jQuery/jQuery-2.2.0.min.js',false);

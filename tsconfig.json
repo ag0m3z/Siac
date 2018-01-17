@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "Mis Apps":[
+    "HockDesk",
+    "Pedidos Comidas",
+    "Punto de Venta",
+    "Sistema de Servicios",
+    "Sistema de Empenos",
+    "Sistema para Abogados",
+    "Sistema de Facturacion",
+    "Sistema para Doctores",
+    "Gestor de Cobranza",
+    "CRM",
+    "ERP"
+  ],
+  "demos_app":{
+    "restaurante":{
+      "name":"SisRestoBar",
+      "descripcion":"Sistema de Restaurante y bar",
+      "url":"https://www.youtube.com/watch?v=gbMHN2EVpfM",
+      "user":"",
+      "pass":""
+    },
+    "Abogados":{
+      "name":"Demo Abogados",
+      "descripcion":"Sistema de Restaurante y bar",
+      "url":"https://misjuicios.com/iniciar-sesion",
+      "user":"agomez.barron",
+      "pass":"Paladin88"
+    },
+    "Gestion de Cobranza":{
+      "name":"Sistemas de Cobranza",
+      "descripcion":"Sistemas de Cobranza",
+      "url":"https://www.solbyte.com/ - http://sokolabs.com/ - http://www.cash-pot.com.ar/agenda-de-gestion-de-cobranzas.aspx - https://iagreesystem.com/"
+    },
+    "Sistema de Empeño":{
+      "name":"Sistema de Empeños",
+      "descripcion":"Sistema de Empenos",
+      "url":"http://www.bsdempenos.mx/#prettyPhoto",
+      "url2":"https://www.yopresto.com/branch/5a5d3651c11e7dec1794c884/reports",
+      "user":"agomez.barron",
+      "pass":"Paladin88"
+    }
+  }
+}
