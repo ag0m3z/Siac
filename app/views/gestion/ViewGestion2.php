@@ -112,6 +112,7 @@ $connect->getValidaConexion();
         </div>
     </div>
 </div>
+
 <div class="row row-xs">
 
     <div class="col-sm-8">

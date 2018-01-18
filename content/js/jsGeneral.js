@@ -149,11 +149,9 @@ function setRemoveDiv(idDiv) {
     $("#content"+idDiv).remove();
 }
 function setOpenModal(idmodal){
+
     $('#'+idmodal).modal('toggle');
-
     setTimeout(function() { $('.modal-body').find('input:text').first().focus(); }, 700);
-
-
     $("#"+idmodal).draggable({
         handle: ".modal-header"
     });

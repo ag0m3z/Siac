@@ -187,7 +187,6 @@
 </div>
 <?php
 \core\core::includeJS("plugins/jQuery/",true);
-\core\core::includeJS("content/js/app.js",false);
 \core\core::includeJS("plugins/jQueryUI/jQuery-ui.js",false);
 \core\core::includeJS("plugins/bootstrap/js/bootstrap.js",false);
 \core\core::includeJS("plugins/bootstrap/js/bootbox.min.js",false);
@@ -200,11 +199,16 @@
 \core\core::includeJS("plugins/select2/select2.full.min.js",false);
 \core\core::includeJS("plugins/pnotify/pnotify.custom.min.js",false);
 
+\core\core::includeJS("content/js/app.js",false);
 \core\core::includeJS("content/js/iKroAnimate.js",false);
 \core\core::includeJS("content/js/jsGeneral.js",false);
 ?>
 <script language="JavaScript">
     $(document).ready(function(){
+
+        setTimeout(function () {
+            $(".wrapper").removeClass('animated fadeIn');
+        },1000);
 
         $(".select2").select2();
         $("#head_buscar_cliente").focus();
